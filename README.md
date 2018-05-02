@@ -4,14 +4,14 @@
 - Run: `$ npm install`   
     If you get an error installing canvas package, refer to the section bellow 'Installing dependencies'.
     
-- node rsk-faucet.js
+- node usc-faucet.js
 - Open index.html in a browser
 
 
 ## Configuration for deployment to prod/testnet
 - Copy example-config.json to config.json and configure with your data.
-- rsk-Faucet.js configuration variables on top of file
-- lib/rsk-helper.js configure urlOfFaucetServer
+- usc-Faucet.js configuration variables on top of file
+- lib/usc-helper.js configure urlOfFaucetServer
 - put some SBTCs on the faucet address
 
 
