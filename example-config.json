@@ -1,0 +1,9 @@
+{
+	"port": "PortToListen",
+	"rskNode": "rskNodeAddress",
+	"faucetAddress": "rskAddressForFaucet",
+	"faucetPrivateKey": "rskAddressForFaucetPrivateKey",
+	"valueToSend": "valueToSendinhex",
+	"captchaSecret": "someSecret",
+	"gas": "gasinhex"
+}
