@@ -211,7 +211,7 @@ app.post('/', function (req, res) {
     executeTransfer(req.body.uscAddress)
 
     faucetHistory[req.body.uscAddress.toLowerCase()] = {timestamp: new Date().getTime()};
-    res.send('Successfully sent some SBTCs to ' + req.body.uscAddress + '.');
+    res.send('Successfully sent some Ulord-Sidechain coin to ' + req.body.uscAddress + '.');
   } else {
     res.status(400).send('We can not tranfer any amount right now. Try again later.' + req.body.uscAddress + '.');
   }
