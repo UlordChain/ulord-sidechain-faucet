@@ -183,7 +183,7 @@ app.get('/balance', function (req, res) {
 });
 
 app.post('/', function (req, res) {
-  if (!validateRskAddress(req.body.uscAddress)) {
+  if (!validateUscAddress(req.body.uscAddress)) {
     console.log('Invalid USC address format ', req.body.uscAddress);
     return res.status(400).send('Invalid USC address format.');
   }

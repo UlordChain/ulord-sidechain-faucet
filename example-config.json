@@ -1,8 +1,8 @@
 {
 	"port": "PortToListen",
-	"rskNode": "rskNodeAddress",
-	"faucetAddress": "rskAddressForFaucet",
-	"faucetPrivateKey": "rskAddressForFaucetPrivateKey",
+	"uscNode": "uscNodeAddress",
+	"faucetAddress": "uscAddressForFaucet",
+	"faucetPrivateKey": "uscAddressForFaucetPrivateKey",
 	"valueToSend": "valueToSendinhex",
 	"captchaSecret": "someSecret",
 	"gas": "gasinhex"
