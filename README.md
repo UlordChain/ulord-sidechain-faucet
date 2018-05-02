@@ -12,7 +12,7 @@
 - Copy example-config.json to config.json and configure with your data.
 - usc-Faucet.js configuration variables on top of file
 - lib/usc-helper.js configure urlOfFaucetServer
-- put some SBTCs on the faucet address
+- put some Ulord-Sidechain coins on the faucet address
 
 
 ## TODO
