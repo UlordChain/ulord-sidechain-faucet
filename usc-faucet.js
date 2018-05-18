@@ -12,7 +12,7 @@ var Tx = require('ethereumjs-tx');
 var CronJob = require('cron').CronJob;
 const cookieParser = require('cookie-parser')
 
-// compress all responses
+// compress all responses //Sending pull request.
 app.use(compression({filter: shouldCompress}))
 
 function shouldCompress (req, res) {
