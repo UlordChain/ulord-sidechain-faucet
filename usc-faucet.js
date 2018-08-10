@@ -70,7 +70,7 @@ app.use(session({
   key: 'session.sid',
   resave: false,
   saveUninitialized: true,
-  cookie: { secure: true },
+  cookie: { secure: false },
   store: new fileStore()
 }))
 
@@ -202,6 +202,7 @@ app.post('/', function (req, res) {
   if(!isSyncing) {
     // Success will be true or false depending upon captcha validation.
     var valid = captcha.check(req, req.body[captchaFieldName])
+    console.log(valid);
     if(valid !== undefined && !valid) {
       console.log('Invalid captcha ', req.body[captchaFieldName]);
       return res.status(400).send("Failed captcha verification.");
