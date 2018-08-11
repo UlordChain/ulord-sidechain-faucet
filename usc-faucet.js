@@ -207,7 +207,7 @@ app.post('/', function (req, res) {
       console.log('Invalid captcha ', req.body[captchaFieldName]);
       return res.status(400).send("Failed captcha verification.");
     }
-    console.log('Sending USCs to ' + req.body.uscAddress);
+    console.log('Sending sUT to ' + req.body.uscAddress);
     console.log('Captcha ' + req.body[captchaFieldName]);
     executeTransfer(req.body.uscAddress)
 
